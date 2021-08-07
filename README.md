@@ -1,6 +1,6 @@
 # CLI Commands REST API (Task Manager)
 API Link :- https://task-manager-ssoneja.herokuapp.com (if it's down it means I unfortunately ran out of my Free Credits)
-#### It is Task-Manager-API which is used to create user and its tasks using CRUD operations. ### The purpose of this project is to learn and practice concepts related to:
+#### It is Task-Manager-API which is used to create "User" and its "Tasks" using CRUD operations. Each task is dependent or created by specified user and no other user can delete or create the task of other user. ### The purpose of this project is to learn and practice concepts related to:
 > - Building a REST API
 > - NodeJS
 > - Express
@@ -47,6 +47,13 @@ API Link :- https://task-manager-ssoneja.herokuapp.com (if it's down it means I 
 
 - All of the above setting will save you from putting user id for authentication again and again during Requesting API, Now you good to go to use the API
 
+### User Model :-
+
+![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/usermodel.png)
+
+### Task Model :-
+
+![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/taskmodel.png)
 
 ### API Endpoints (CRUD):-
 
@@ -55,8 +62,4 @@ API Link :- https://task-manager-ssoneja.herokuapp.com (if it's down it means I 
 ![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/user.png)
 
 ![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/task.png)
-
-
-
-
 
