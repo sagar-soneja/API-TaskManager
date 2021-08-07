@@ -20,5 +20,23 @@ API Link :- https://task-manager-ssoneja.herokuapp.com (if it's down it means I 
 
 ### How to use :-
 > - Install Postman( https://www.postman.com/ )
-> - In Postman :-
- 
+> - In Postman :- 
+> - - Create collection name as Task App (or as u want), then go in edit :-
+
+![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/env1.png)
+
+Then in Authorization change Type as Bearer Token and Token as {{authToken}}
+
+![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/env2.png)
+
+Then Before making every Request change its Test to :-
+
+![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/env3.png)
+
+and its Authorization to :- 
+
+![image](https://github.com/sagar-soneja/API-TaskManager/blob/main/Pics/env4.png)
+
+All of the above setting will save you from putting user id for authentication again and again in request api
+
+
